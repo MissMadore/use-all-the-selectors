@@ -30,7 +30,7 @@ nav ul {
 /*8*/
 
 .dfn + strong {
-  color: #fff
+  color: #fff;
 }
 
 /*9*/
@@ -38,5 +38,32 @@ a:not(.no-highlight) {
   background-color: #719e07;
 }
 
-/*9*/
-ol li:first-child
+/*10*/
+[rel="external"] {
+  background-color: #2694d8;
+}
+
+/*11*/
+ol li:first-child {
+  color: #719e47;
+}
+
+/*12*/
+ol li:last-child {
+  color: #2aa198;
+}
+
+/*13*/
+.types li:nth-child(odd) {
+  background-color: #657ba3;
+}
+
+/*14*/
+.types li:nth-child(even) {
+  background-color: #586e75;
+}
+
+/*15*/
+.types li:nth-child(3n) {
+  background-color: #d04b16;
+}
