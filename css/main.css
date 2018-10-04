@@ -1,34 +1,42 @@
+/*1*/
 body {
   background-color: #fdf6e3;
 }
-
+/*2*/
 header, footer {
   font-size: 1.5rem;
 }
-
+/*3*/
 nav ul {
   font-family: sans-serif;
 }
-
+/*4*/
 .logo {
   text-transform: uppercase;
 }
-
+/*5*/
 .wrapper {
   background-color: #eee8d5;
 }
-
+/*6*/
 #contents, #favs, #facts, #types {
   color: #93a1a1;
 }
-
+/*7*/
 .wrapper > .dfn {
-  color: #fff;
+  color: #b58900;
 }
 
+/*8*/
+
+.dfn + strong {
+  color: #fff
+}
+
+/*9*/
 a:not(.no-highlight) {
   background-color: #719e07;
 }
 
-
+/*9*/
 ol li:first-child
